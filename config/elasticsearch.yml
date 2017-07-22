@@ -1,5 +1,6 @@
 # bootstrap.ignore_system_bootstrap_checks: true
-
+transport.host: 0.0.0.0
+http.host: 0.0.0.0
 discovery.zen.minimum_master_nodes: 1
 
 network.host:
@@ -13,3 +14,5 @@ network.publish_host: _local_
 script.inline: true
 script.stored: true
 script.file:   true
+
+cluster.name: elasticsearch
